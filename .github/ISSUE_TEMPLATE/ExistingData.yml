@@ -1,0 +1,41 @@
+name: TEST I need to add data to an existing layer(s)
+description: test
+title: This Application Needs New Data Added to [name of layer]
+labels: ["new data"]
+assignees:
+  - marthajensen
+body:
+  - type: input
+    id: layerName
+    attributes:
+        label: Name of Layer (as it appears in the application)
+    validations:
+        required: true
+  - type: input
+    id: dataLocation
+    attributes:
+        label: Folder path of data
+        placeholder: G:\Shared drives\UGS_Shared\...
+    validations:
+        required: true
+  - type: textarea
+    id: requestReason
+    attributes:
+        label: Why do you feel this application needs what you're requesting?
+        placeholder: I need this new data added because [...] (for each layer)
+    validations:
+        required: true
+  - type: textarea
+    id: reviewCheckDatabase
+    attributes:
+        label: Who has reviewed your database so far? (e.g. Schema, Field Types, Topology, etc.)
+        placeholder: Required review - GIS Analyst, GIS Manager, Database Manager
+    validations:
+        required: true
+  - type: textarea
+    id: reviewCheckScience
+    attributes:
+        label: Who has reviewed your science and grammar so far?
+        placeholder: Required review - peer, program manager, technical reviewer (if data is in full sentence format)
+    validations:
+        required: true
