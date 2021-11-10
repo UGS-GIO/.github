@@ -1,31 +1,43 @@
-name: Bugs Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: Test (Don't Use Yet)
+description: This is just a test
+title: "Title: **Feature or new layer you wish this application had)**"
+labels: ["enhancement", "new data"]
 assignees:
-  - octocat
+  - CyndiAndersen, marshallrobinson
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
-    id: what-happened
+    id: requestReason
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+        label: Why do you feel this application needs what you're requesting?
+        description: Does this need a sub-header?
+        placeholder: I need this new layer added because [...], or
+A clear and concise description of what you feel the problem is. Ex. I'm always frustrated when [...]
     validations:
-      required: true
+        required: true
+  - type: textarea
+    id: valueReason
+    attributes:
+        label: Describe the solution you'd like and why it builds value:
+        description: Does this need a sub-header?
+        placeholder: A clear and concise description of what you want to happen and what value it will bring.
+    validations:
+        required: true
+  - type: textarea
+    id: moreContext
+    attributes:
+        label: Additional Context:
+        description: Does this need a sub-header?
+        placeholder: Add any other context or screenshots about the feature request here.
+    validations:
+        required: true
+  - type: input
+    id: dataLocation
+    attributes:
+        label: Folder path of data:
+        description: Does this need a sub-header?
+        placeholder: G:\Shared drives\UGS_Shared\...
+    validations:
+        required: true
   - type: dropdown
     id: version
     attributes:
@@ -36,27 +48,24 @@ body:
         - 1.0.3 (Edge)
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: markdown
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+        value: "## Review Process | **Data Layer Submissions**
+**(If adding new data layers to the application, your data will be reviewed and checked off by the following people using Github):
+
+**Database Design Review:**
+-GIS Analyst or Data Owner
+-GIS Manager
+-Database Manager
+
+**Science & Database Content Review:**
+-Data Owner
+-Program Manager
+-Technical Reviewer (only the text within the database/app: if it's in full sentence format)
+
+***
+
+**All Other Feature Requests Will Be Prioritized and Considered for Future Application Releases**
+
+   |
+        Thanks for taking the time to fill out this form!"
