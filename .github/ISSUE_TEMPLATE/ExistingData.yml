@@ -1,4 +1,4 @@
-name: TEST I need to add data to an existing layer(s)
+name: TEST I Need to Add Data to an Existing Layer(s)
 description: test
 title: This Application Needs New Data Added to [name of layer]
 labels: ["new data"]
@@ -8,7 +8,7 @@ body:
   - type: input
     id: layerName
     attributes:
-        label: Name of Layer (as it appears in the application)
+        label: Name of Esisting Layer (as it appears in the application)
     validations:
         required: true
   - type: input
