@@ -45,6 +45,5 @@ body:
         required: false
   - type: markdown
     attributes:
-        value: |
-          All feature requests will be reviewed for future applciation releases
+        value: "## All feature requests will be reviewed for future applciation releases"
 
