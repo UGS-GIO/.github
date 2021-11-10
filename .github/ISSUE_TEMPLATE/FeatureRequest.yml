@@ -1,7 +1,7 @@
 name: TEST Feature Request (e.g. New Functionality)
 description: test
 title: I Think [this cool thing] Would be a Great Addition to the Application
-labels: ["enhancement", "new data"]
+labels: ["enhancement", "feature request"]
 assignees:
   - marshallrobinson
 body:
