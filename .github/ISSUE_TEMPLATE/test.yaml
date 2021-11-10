@@ -10,8 +10,7 @@ body:
     attributes:
         label: Why do you feel this application needs what you're requesting?
         description: Does this need a sub-header?
-        placeholder: I need this new layer added because [...], or
-A clear and concise description of what you feel the problem is. Ex. I'm always frustrated when [...]
+        placeholder: I need this new layer added because [...], or|A clear and concise description of what you feel the problem is. Ex. I'm always frustrated when [...]
     validations:
         required: true
   - type: textarea
