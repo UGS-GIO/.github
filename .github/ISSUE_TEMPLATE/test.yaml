@@ -12,3 +12,11 @@ body:
         placeholder: I need this new layer added because [...] (for each layer)
     validations:
         required: true
+  - type: textarea
+    id: valueReason
+    attributes:
+        label: Describe the layer(s) you'd like to add
+        placeholder: A clear and concise description of the new layers you'd like to add.
+    validations:
+        required: true
+  
