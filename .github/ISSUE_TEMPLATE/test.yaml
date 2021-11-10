@@ -37,14 +37,21 @@ body:
   - type: textarea
     id: reviewCheck
     attributes:
-        label: Who has reviewed your science and data so far?
-        placeholder: Required review - peer, program manager, technical reviewer (if data is in full sentence format)
+        label: Who has reviewed your database so far?
+        placeholder: Required review - GIS Analyst, GIS Manager, Database Manager
     validations:
         required: true
   - type: textarea
+    id: reviewCheck
+    attributes:
+        label: Who has reviewed your science and grammar so far?
+        placeholder: Required review - peer, program manager, technical reviewer (if data is in full sentence format)
+    validations:
+        required: true      
+  - type: textarea
     id: panelEdits
     attributes:
-        label: Text for "About," "Database Contents," etc. Panels
+        label: Text for Application Panels (e.g. About, Supplemental Data, Explanation)
         description: Please have these sections reviewed by a peer, program manager, and technical reviewer
         placeholder: Provide a link to a Google Doc with your proposed text, showing edits from people shown above.
     validations:
