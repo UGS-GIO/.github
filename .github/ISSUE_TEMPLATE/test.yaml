@@ -38,7 +38,7 @@ body:
     id: reviewCheck
     attributes:
         label: Who has reviewed your science and data so far?
-        placeholder: test
+        placeholder: Required review - peer, program manager, technical reviewer (if data is in full sentence format)
     validations:
         required: true
   - type: textarea
