@@ -4,11 +4,13 @@ title: This Application Needs New Data Added to [name of layer]
 labels: ["new data"]
 assignees:
   - marthajensen
+projects:
+  - Cross Repository Projects
 body:
   - type: input
     id: layerName
     attributes:
-        label: Name of Esisting Layer (as it appears in the application)
+        label: Name of Existing Layer (as it appears in the application)
     validations:
         required: true
   - type: input
