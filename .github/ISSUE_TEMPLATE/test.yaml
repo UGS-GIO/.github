@@ -1,6 +1,6 @@
-name: TEST This Application Needs a New Layers
+name: TEST This Application Needs a New Layer(s)
 description: test
-title: This Application Needs a New Layers
+title: This Application Needs a New Layer(s)
 labels: ["enhancement", "new data"]
 assignees:
   - CyndiAndersen, marshallrobinson
