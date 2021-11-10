@@ -38,16 +38,11 @@ body:
     validations:
         required: true
   - type: dropdown
-    id: version
+    id: reviewProcess
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Are you requesting a new layer, or a new feature in the application? 
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - New Layer 
+        - New Feature
     validations:
       required: true
-  - type: markdown
-    attributes:
-        value: "## Review Process
-        **Data Layer Submissions**"
