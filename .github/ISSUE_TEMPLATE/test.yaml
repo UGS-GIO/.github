@@ -16,7 +16,7 @@ body:
   - type: textarea
     id: valueReason
     attributes:
-        label: Describe the solution you'd like and why it builds value:
+        label: Describe the solution you'd like and why it builds value
         description: Does this need a sub-header?
         placeholder: A clear and concise description of what you want to happen and what value it will bring.
     validations:
@@ -24,7 +24,7 @@ body:
   - type: textarea
     id: moreContext
     attributes:
-        label: Additional Context:
+        label: Additional Context
         description: Does this need a sub-header?
         placeholder: Add any other context or screenshots about the feature request here.
     validations:
@@ -32,7 +32,7 @@ body:
   - type: input
     id: dataLocation
     attributes:
-        label: Folder path of data:
+        label: Folder path of data
         description: Does this need a sub-header?
         placeholder: G:\Shared drives\UGS_Shared\...
     validations:
