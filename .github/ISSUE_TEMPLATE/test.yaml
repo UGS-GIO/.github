@@ -16,7 +16,7 @@ body:
     id: valueReason
     attributes:
         label: Describe the layer(s) you'd like to add
-        placeholder: A clear and concise description of the new layers you'd like to add.
+        placeholder: A clear and concise description of the new layer(s) you'd like to add.
     validations:
         required: true
   - type: textarea
@@ -30,8 +30,8 @@ body:
     id: popupDetails
     attributes:
         label: Popup Formatting
-        description: Following the current popup-formatting of other layers in this applications, what attributes would you like displaced for the new layer(s)?
-        placeholder: Following the current popup-formatting of other layers in this applications, what attributes would you like displaced for the new layer(s)?
+        description: Following the current popup-formatting of other layers in this applications, what attributes would you like displayed for the new layer(s)?
+        placeholder: Popup Title, Attribute Name, Attribute Value (w/desired units if necessary), etc.
     validations:
         required: true
   - type: textarea
@@ -39,7 +39,7 @@ body:
     attributes:
         label: Text for "About," "Database Contents," etc. Panels
         description: Please have these sections reviewed by a peer, program manager, and technical reviewer
-        placeholder: Popup Title, Attribute Name, Attribute Value (w/desired units if necessary), etc.
+        placeholder: Provide a link to a Google Doc with your proposed text, showing edits from people shown above.
     validations:
         required: true      
   - type: input
