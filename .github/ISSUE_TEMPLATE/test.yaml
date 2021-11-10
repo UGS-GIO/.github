@@ -49,4 +49,4 @@ body:
       required: true
   - type: markdown
     attributes:
-        value: "## Review Process | **Data Layer Submissions** | **(If adding new data layers to the application, your data will be reviewed and checked off by the following people using Github):| **Database Design Review:**|-GIS Analyst or Data Owner|-GIS Manager|-Database Manager||**Science & Database Content Review:**|-Data Owner|-Program Manager|-Technical Reviewer (only the text within the database/app: if it's in full sentence format)|***|**All Other Feature Requests Will Be Prioritized and Considered for Future Application Releases**|Thanks for taking the time to fill out this form!"
+        value: "## Review Process" | "**Data Layer Submissions**"
