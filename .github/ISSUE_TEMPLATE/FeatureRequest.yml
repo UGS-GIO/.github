@@ -43,9 +43,4 @@ body:
         placeholder: Attach emails, user-feedback, etc. showing evidence that this new feature would have a positive impact.
     validations:
         required: false
-  - type: markdown
-    value: "## All feature requests will be reviewed for future applciation releases"
-  - type: markdown
-    attributes:
-        value: |
-          All feature requests will be reviewed for future applciation releases
+  
