@@ -1,4 +1,5 @@
-name: This Application Needs a New Layer(s)
+name: TEST This Application Needs a New Layer(s)
+description: test
 title: "This Application Needs a New Layer(s)"
 labels: ["enhancement", "new data"]
 assignees:
@@ -48,12 +49,3 @@ body:
         placeholder: G:\Shared drives\UGS_Shared\...
     validations:
         required: true
-  - type: dropdown
-    id: reviewProcess
-    attributes:
-      label: Are you requesting a new layer, or a new feature in the application? 
-      options:
-        - New Layer
-        - New Feature
-    validations:
-      required: true
