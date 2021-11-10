@@ -35,14 +35,14 @@ body:
     validations:
         required: true
   - type: textarea
-    id: reviewCheck
+    id: reviewCheckDatabase
     attributes:
-        label: Who has reviewed your database so far?
+        label: Who has reviewed your database so far? (e.g. Schema, Field Types, Topology, etc.)
         placeholder: Required review - GIS Analyst, GIS Manager, Database Manager
     validations:
         required: true
   - type: textarea
-    id: reviewCheck
+    id: reviewCheckScience
     attributes:
         label: Who has reviewed your science and grammar so far?
         placeholder: Required review - peer, program manager, technical reviewer (if data is in full sentence format)
