@@ -35,6 +35,13 @@ body:
     validations:
         required: true
   - type: textarea
+    id: reviewCheck
+    attributes:
+        label: Who has reviewed your science and data so far?
+        placeholder: Required review: peer, program manager, technical reviewer (if data is in full sentence format)
+    validations:
+        required: true
+  - type: textarea
     id: panelEdits
     attributes:
         label: Text for "About," "Database Contents," etc. Panels
