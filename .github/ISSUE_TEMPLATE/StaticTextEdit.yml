@@ -1,0 +1,35 @@
+name: TEST I Need to Add Data to an Existing Layer(s)
+description: test
+title: This Application Needs New Data Added to [name of layer]
+labels: ["new data"]
+assignees:
+  - marthajensen
+body:
+  - type: input
+    id: panelName
+    attributes:
+        label: What is the name of the panel containing text that needs changed?
+        placeholder: About Panel, Database Contents, Explanation, etc.
+    validations:
+        required: true
+  - type: textarea
+    id: oldText
+    attributes:
+        label: What does the current text say?
+        placeholder: Copy/paste from the current application (be sure to include hyperlinks and any special formatting)
+    validations:
+        required: true
+  - type: textarea
+    id: newText
+    attributes:
+        label: What do you propose the new text says?
+        placeholder: I need this new data added because [...] (for each layer)
+    validations:
+        required: true
+  - type: textarea
+    id: reviewCheckGrammar
+    attributes:
+        label: Who has reviewed your proposed text so far?
+        placeholder: If longer than a few words, it must go through review - peer, program manager, technical reviewer
+    validations:
+        required: true
