@@ -1,9 +1,9 @@
 name: TEST Suggest Static Text Edit
 description: test
 title: Suggest Static Text Edit
-labels: ["simple change"]
+labels: ["enhancement"]
 assignees:
-  - marthajensen
+  - marshallrobinson
 body:
   - type: input
     id: panelName
@@ -16,7 +16,7 @@ body:
     id: oldText
     attributes:
         label: What does the current text say?
-        placeholder: Copy/paste from the current application (be sure to include hyperlinks and any special formatting)
+        placeholder: Copy/paste from the current application (be sure to include hyperlinks and any special formatting). If you maintain your application's text in a Doc, please paste a link to it here.
     validations:
         required: true
   - type: textarea
