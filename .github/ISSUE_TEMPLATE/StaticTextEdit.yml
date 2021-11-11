@@ -1,7 +1,7 @@
-name: TEST I Need to Add Data to an Existing Layer(s)
+name: TEST Suggest Static Text Edit
 description: test
-title: This Application Needs New Data Added to [name of layer]
-labels: ["new data"]
+title: Suggest Static Text Edit
+labels: ["simple change"]
 assignees:
   - marthajensen
 body:
