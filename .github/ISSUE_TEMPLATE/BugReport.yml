@@ -1,6 +1,6 @@
 name: TEST Bug Report
 description: File a bug report
-title: Give the Bug a Name
+title: "[BUG:] Give the Bug a Name"
 labels: ["bug", "triage"]
 assignees:
   - octocat
