@@ -30,6 +30,6 @@ body:
     id: reviewCheckGrammar
     attributes:
         label: Who has reviewed your proposed text so far?
-        placeholder: If longer than a few words, it must go through review - peer, program manager, technical reviewer
+        placeholder: Tag reviewer's username here so they can verify; If longer than a few words, it must go through review - peer, program manager, technical reviewer
     validations:
         required: true
