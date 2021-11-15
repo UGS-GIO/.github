@@ -25,12 +25,4 @@ body:
       placeholder: Chrome Version 95.0.4638.69 (Official Build) (64-bit)
     validations:
       required: true
-  -type: textarea
-   id: reproduce
-   attributes:
-     label: How do you trigger this bug? Please walk us through it step by step.
-     placeholder: I'll disappear when you click me.
-     value: test
-     render: bash
-   validations:
-     required: true
+  
