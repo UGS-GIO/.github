@@ -15,6 +15,7 @@ body:
       description: Also tell us what you expected to happen? Please use concise and descriptive detail. Please attach screenshots of the bug to this text-box.
       placeholder: Tell us what you see!
       value: "A bug happened!"
+      render: bash
     validations:
       required: true
   - type: input
