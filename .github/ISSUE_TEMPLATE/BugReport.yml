@@ -29,11 +29,8 @@ body:
    id: reproduce
    attributes:
      label: How do you trigger this bug? Please walk us through it step by step.
-     value: |
-       1.
-       2.
-       3.
-       ...
+     placeholder: I'll disappear when you click me.
+     value: test
      render: bash
    validations:
      required: true
