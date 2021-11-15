@@ -3,12 +3,12 @@ description: test
 title: Suggest Static Text Edit
 labels: ["enhancement"]
 assignees:
-  - marshallrobinson
+  - marshallrobinson, geowomansteph
 body:
   - type: input
     id: panelName
     attributes:
-        label: What is the name of the panel containing text that needs changed?
+        label: Where is the text you are suggesting changes for?
         placeholder: About Panel, Database Contents, Explanation, etc.
     validations:
         required: true
