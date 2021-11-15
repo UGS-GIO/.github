@@ -29,7 +29,7 @@ body:
     id: reviewCheckDatabase
     attributes:
         label: Who has reviewed your database so far (e.g. Schema, Field Types, Topology, etc.)?
-        description: 'Tag' their username here so they can verify.
+        #description: 'Tag' their username here so they can verify.
         placeholder: Required review - GIS Analyst, GIS Manager, Database Manager
     validations:
         required: true
@@ -37,7 +37,7 @@ body:
     id: reviewCheckScience
     attributes:
         label: Who has reviewed your science and grammar so far?
-        description: 'Tag' their username here so they can verify.
+       # description: 'Tag' their username here so they can verify.
         placeholder: Required review - peer, program manager, technical reviewer (if data is in full sentence format)
     validations:
         required: true
