@@ -13,7 +13,12 @@ body:
     attributes:
       label: What happened?
       description: Also tell us what you expected to happen? Please use concise and descriptive detail. Please attach screenshots of the bug to this text-box.
-      placeholder: Tell us what you see!
+      value: |
+      1.
+      2.
+      3.
+      ...
+    render: bash
     validations:
       required: true
   - type: input
