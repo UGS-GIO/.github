@@ -28,7 +28,7 @@ body:
   - type: textarea
     id: reviewCheckDatabase
     attributes:
-        label: Who has reviewed your database so far? (e.g. Schema, Field Types, Topology, etc.)
+        label: Who has reviewed your database so far (e.g. Schema, Field Types, Topology, etc.)?
         description: 'Tag' their username here so they can verify.
         placeholder: Required review - GIS Analyst, GIS Manager, Database Manager
     validations:
