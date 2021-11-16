@@ -14,7 +14,6 @@ body:
       label: What happened?
       description: Also tell us what you expected to happen? Please use concise and descriptive detail. Please attach screenshots of the bug to this text-box.
       value: test
-    render: bash
     validations:
       required: true
   - type: input
