@@ -54,10 +54,10 @@ body:
         label: Copy/Paste All Text for Application Panels Here (e.g. About, Supplemental Data, Explanation)
         description: Please have these sections reviewed by a peer, program manager, and technical reviewer
         value: |
-        About Panel-
-        Suplemental Data-
-        Explanation-
-        ...
+          About Panel-
+          Suplemental Data-
+          Explanation-
+          ...
     validations:
         required: true      
   - type: input
