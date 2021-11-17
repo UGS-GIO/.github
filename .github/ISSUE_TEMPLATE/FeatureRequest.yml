@@ -1,5 +1,5 @@
-name: TEST Feature Request (e.g. New Functionality)
-description: test
+name: Feature Request (e.g. New Functionality)
+description: Use this form to request a new feature/functionality gets added to the application
 title: I Think [this cool thing] Would be a Great Addition to the Application
 labels: ["enhancement", "feature request"]
 assignees:

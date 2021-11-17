@@ -1,5 +1,5 @@
-name: TEST Suggest Static Text Edit
-description: test
+name: Suggest Static Text Edit
+description: Use this form to request a change to text that is in one of the application menus/panels
 title: Suggest Static Text Edit
 labels: ["enhancement"]
 assignees:

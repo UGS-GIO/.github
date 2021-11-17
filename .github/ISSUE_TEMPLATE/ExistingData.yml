@@ -1,5 +1,5 @@
-name: TEST I Need to Add Data to an Existing Layer(s)
-description: test
+name: I Need to Add Data to an Existing Layer(s)
+description: Use this form to request data edits to existing layers
 title: This Application Needs New Data Added to [name of layer]
 labels: ["new data"]
 assignees:
