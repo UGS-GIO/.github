@@ -1,7 +1,7 @@
 name: TEST Bug Report
 description: File a bug report
 title: "BUG: [Give the Bug a Name]"
-labels: ["bug", "triage"]
+labels: ["bug", "triage", "considering"]
 assignees:
   - marshallrobinson
 body:
