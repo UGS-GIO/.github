@@ -5,19 +5,15 @@ labels: ["bug", "triage"]
 assignees:
   - marshallrobinson
 body:
-- type: textarea
-  id: repro
-  attributes:
-    label: Reproduction steps
-    description: "How do you trigger this bug? Please walk us through it step by step."
-    value: |
-      1.
-      2.
-      3.
-      ...
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: "How do you trigger this bug? Please walk us through it step by step."
+      value: test
     render: bash
-  validations:
-    required: true
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
