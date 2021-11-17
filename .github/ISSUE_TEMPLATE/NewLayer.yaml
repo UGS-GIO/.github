@@ -38,7 +38,7 @@ body:
     id: reviewCheckDatabase
     attributes:
         label: Who has reviewed your database so far? (e.g. Schema, Field Types, Topology, etc.)
-        placeholder: Tag reviewer's username here so they can verify; Required review - GIS Analyst, GIS Manager, Database Manager
+        placeholder: Tag reviewer's Github username here so they can verify (e.g. @CyndiAndersen); Required review - GIS Analyst, GIS Manager, Database Manager; Tag @marshallrobinson if you need a Github username created for reviewer
     validations:
         required: true
   - type: textarea
