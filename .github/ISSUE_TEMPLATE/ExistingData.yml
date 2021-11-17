@@ -29,13 +29,13 @@ body:
     id: reviewCheckDatabase
     attributes:
         label: Who has reviewed your database so far (e.g. Schema, Field Types, Topology, etc.)?
-        placeholder: Tag reviewer's username here so they can verify; Required review - GIS Analyst, GIS Manager, Database Manager
+        placeholder: Tag reviewer's Github username here so they can verify (e.g. @CyndiAndersen); Required review - GIS Analyst, GIS Manager, Database Manager; Tag @marshallrobinson if you need a Github username created for reviewer
     validations:
         required: true
   - type: textarea
     id: reviewCheckScience
     attributes:
         label: Who has reviewed your science and grammar so far?
-        placeholder: Tag reviewer's username here so they can verify; Required review - peer, program manager, technical reviewer (if data is in full sentence format)
+        placeholder: Tag reviewer's username here so they can verify (e.g. @geowomansteph=Steph Carney); Required review - peer, program manager, technical reviewer (if data is in full sentence format); Tag @marshallrobinson if you need a Github username created for reviewer
     validations:
         required: true
