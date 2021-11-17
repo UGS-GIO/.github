@@ -8,12 +8,20 @@ body:
   - type: textarea
     id: repro
     attributes:
-      label: Reproduction steps
-      description: "How do you trigger this bug? Please walk us through it step by step."
+      label: What happened?
+      description: "How do you trigger this bug? Please walk us through it step by step. Please attach screenshots of the bug to this text-box."
       value: |
-        1.
+        1. 
         2.
         3.
+    validations:
+      required: true
+ - type: textarea
+    id: repro
+    attributes:
+      label: What did you expect to happen?
+      description: "Tell us what you expected to happen"
+      placeholder: Please use concise and descriptive detail.
     validations:
       required: true
   - type: input
