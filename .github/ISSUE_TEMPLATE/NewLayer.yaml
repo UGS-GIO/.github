@@ -52,7 +52,6 @@ body:
     id: panelEdits
     attributes:
         label: Copy/paste all text for application panels here (e.g. About, Supplemental Data, Explanation)
-        description: Please have these sections reviewed by a peer, program manager, and technical reviewer
         value: |
           About Panel:
           Suplemental Data:
