@@ -11,7 +11,7 @@ body:
       label: Reproduction steps
       description: "How do you trigger this bug? Please walk us through it step by step."
       value: test
-    render: bash
+      render: bash
     validations:
       required: true
   - type: input
