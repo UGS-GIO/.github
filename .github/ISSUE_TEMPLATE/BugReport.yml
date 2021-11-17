@@ -16,8 +16,8 @@ body:
         3.
     validations:
       required: true
- - type: textarea
-    id: repro
+  - type: textarea
+    id: expectation
     attributes:
       label: What did you expect to happen?
       description: "Tell us what you expected to happen"
