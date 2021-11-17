@@ -51,7 +51,7 @@ body:
   - type: textarea
     id: panelEdits
     attributes:
-        label: Copy/Paste All Text for Application Panels Here (e.g. About, Supplemental Data, Explanation)
+        label: Copy/paste all text for application panels here (e.g. About, Supplemental Data, Explanation)
         description: Please have these sections reviewed by a peer, program manager, and technical reviewer
         value: |
           About Panel:
