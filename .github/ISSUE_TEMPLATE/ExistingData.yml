@@ -3,7 +3,7 @@ description: Use this form to request data edits to existing layers
 title: This Application Needs New Data Added to [name of layer]
 labels: ["new data"]
 assignees:
-  - marthajensen
+  - nmpayne
 body:
   - type: input
     id: layerName
@@ -29,7 +29,7 @@ body:
     id: reviewCheckDatabase
     attributes:
         label: Who has reviewed your database so far (e.g. Schema, Field Types, Topology, etc.)?
-        placeholder: Tag reviewer's Github username here so they can verify (e.g. @marthajensen); Required review - GIS Analyst, GIS Manager, Database Manager; Tag @marshallrobinson if you need a Github username created for reviewer
+        placeholder: Tag reviewer's Github username here so they can verify (e.g. @nmpayne); Required review - GIS Analyst, GIS Manager, Database Manager; Tag @marshallrobinson if you need a Github username created for reviewer
     validations:
         required: true
   - type: textarea
