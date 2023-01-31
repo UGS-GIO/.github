@@ -1,4 +1,5 @@
 name: Adds all issues to project board
+description: Adds all issues to project board
 on:
   issues:
     types:
