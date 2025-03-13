@@ -4,6 +4,7 @@ title: "BUG: [Give the Bug a Name]"
 labels: ["bug", "triage", "considering"]
 assignees:
   - marshallrobinson
+  - mackenzie-cope
 body:
   - type: textarea
     id: repro
