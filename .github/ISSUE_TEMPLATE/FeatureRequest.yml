@@ -4,6 +4,7 @@ title: I Think [this cool thing] Would be a Great Addition to the Application
 labels: ["enhancement", "feature request"]
 assignees:
   - marshallrobinson
+  - mackenzie-cope
 body:
   - type: textarea
     id: requestReason
