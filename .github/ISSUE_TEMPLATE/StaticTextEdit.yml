@@ -3,7 +3,9 @@ description: Use this form to request a change to text that is in one of the app
 title: Suggest Static Text Edit
 labels: ["enhancement"]
 assignees:
-  - marshallrobinson, geowomansteph
+  - marshallrobinson
+  - mackenzie-cope
+  - geowomansteph
 body:
   - type: input
     id: panelName
